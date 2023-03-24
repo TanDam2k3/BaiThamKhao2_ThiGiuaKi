@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeThamKhao2</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <ul class="menu">
+                <li class="item">Home</li>
+                <li class="item">Products</li>
+                <li class="item on-menu">Service
+                    <ul class="menu-child">
+                        <li>International Tours</li>
+                        <li>Local Tours</li>
+                    </ul>
+                </li>
+                <li class="item">About</li>
+                <li class="item">Contact</li>
+            </ul>
+            <div class="title">Sky World</div>
+        </div>
+        <div id="content">
+            <div class="form">
+                <h1 class="caption">Registration infomation</h1>
+                <p class="txt">Start your travel planning right now with our on-line tour registration form. Just tell us a little about yourself and your group and one of our travel experts will contact you to create the perfect tour package custom built for your group's needs</p>
+                <form>
+                    <div class="line">
+                        <label class="col" for="select">Title</label>
+                        <select class="col" name="select" id="txtForm" style="width: 50px; margin-right: calc(50% - 50px);">
+                            <option value="Mr.">Mr.</option>
+                            <option value="Mrs.">Mrs.</option>
+                            <option value="Miss">Miss</option>
+                        </select>
+                    </div>
+                    <div class="line">
+                        <label class="col" for="txtName">Full Name*</label>
+                        <input class="col" type="text" name="txtName" id="txtForm" placeholder="First Name" required>
+                    </div>
+                    <div class="line">
+                        <label class="col" for="txtAddress">Mailing Address</label>
+                        <input class="col" type="text" name="txtAddress" id="txtForm" placeholder="Mailing Address" required>
+                    </div>
+                    <div class="line">
+                        <label class="col" for="txtCity">City</label>
+                        <input class="col" type="text" name="txtCity" id="txtForm" placeholder="City" required>
+                    </div>
+                    <div class="line">
+                        <label class="col" for="txtCountry">Country</label>
+                        <input class="col" type="text" name="txtCountry" id="txtForm" placeholder="Country" required>
+                    </div>
+                    <div class="line">
+                        <label class="col" for="txtMess">Specific question or request about your tour</label>
+                        <textarea class="col" name="txtMess" id="txtForm" cols="30" rows="10" placeholder="Specific question or request about your tour"></textarea>
+                    </div>
+                    <div class="li">
+                        <div class="col" style="margin-left: 50%;">
+                            <button style="padding: 3px; border: 2px dashed blue; box-sizing: border-box; border-radius: 15%;" type="submit">Submit</button>
+                            <button style="padding: 3px; border: 2px dashed blue; box-sizing: border-box; border-radius: 15%;" type="reset">Reset</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="right">
+                <img src="/IMAGE/sky.png" alt="Sky" style="width: 95%; height: 390px; margin-top: 25px;">
+                <div class="txtRight" style="margin:15px 0 0 60px">
+                    <h1 style="color: blue; text-shadow: 3px 3px 0 rgb(8, 8, 225);">You've arrived.</h1>
+                    <h3 style="color: blue; margin-left: 15px;">Journeys as great as the destinations.</h3>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <p>
+                <b><i>@2016</i> Sky World Tours. All rights reserved.</b> <br>
+                Contact infomation: <b><i>Student Name | Student ID |</i></b> | Testing date: <b><i>16 Sept 2016</i></b>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
